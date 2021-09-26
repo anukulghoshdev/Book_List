@@ -64,7 +64,7 @@ class UI {
 
             store.removeBookFromLS(target.parentElement.previousElementSibling.textContent.trim());
             
-            UI.showAlert('Book Removed!', 'success');
+            UI.showAlert('Book Removed!', 'error');
         }
     }
     
